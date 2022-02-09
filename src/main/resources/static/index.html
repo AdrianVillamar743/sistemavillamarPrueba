@@ -1,0 +1,25 @@
+<html>
+<header>
+<meta charset="utf-8">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+</header>
+<body>
+
+<form class="login-form">
+    <p class="login-text">
+ <span class="fa-stack fa-2x">
+<i class="fa fa-user-circle-o" aria-hidden="true"></i>
+</span>
+    </p>
+    <input  class="login-username" id="correo" autofocus="true" required="true" placeholder="correo" />
+    <input type="password" class="login-password" id="clave" required="true" placeholder="clave" />
+    <button type="button" id='entrar' class="login-submit" onclick="loguear()">Entrar </button>
+</form>
+<a href="registro.html" class="login-forgot-pass" >No tienes cuenta? registrate</a>
+<div class="underlay-photo"></div>
+<div class="underlay-black"></div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="js/login.js"></script>
+
+</body>
+</html>
